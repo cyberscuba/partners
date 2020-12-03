@@ -1,0 +1,13 @@
+{
+  "name": "victoriusnetwork/Dashboard",
+  "description": "Dashboard victoriusnetwork.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Worktic s.a.s",
+      "email": "info@worktic.co"
+    }
+  ],
+  "require": {}
+}

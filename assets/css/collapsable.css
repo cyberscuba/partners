@@ -1,0 +1,55 @@
+.span2 { text-align: center; }
+.center{ text-align: center; }
+
+.pointer{ cursor: pointer; }
+/* optional Container STYLES */
+.chart { height: 600px; margin: 5px; width: 100%;  }
+/*.Treant > .node { padding: 3px; border: 1px solid #484848; border-radius: 3px; }*/
+.Treant > .node img { width: 54px; height: 54px; }
+
+.Treant .collapse-switch { width: 10px; height: 10px; border: none; background:transparent url('img/13.png') center top no-repeat;}
+.Treant .collapse-switch:hover { background-image: url('img/13.png');}
+.Treant .node.collapsed { background-color: none; }
+.Treant .node.collapsed .collapse-switch { background: none; }
+.boton-tree-inicio{
+    width:50px; 
+    cursor: pointer;
+}
+
+.Treant > .node p{
+    margin-top: 56px; display: block;
+}
+.label-info{
+    
+}
+
+.boton-tree-up{
+    width:50px; 
+    cursor: pointer;
+    float: right;
+}
+
+.div-botones-direccion{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 120px;
+    margin-left: -60px;
+    z-index: 1;
+}
+
+@media (max-width: 760px) {
+    .div-botones-direccion{
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        width: 120px;
+        z-index: 1;
+    }
+    
+    .chart { height: 400px; margin: 5px; width: 100%;  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .chart { height: 650px; margin: 5px; width: 100%; }
+}
